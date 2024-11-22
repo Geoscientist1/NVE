@@ -2,7 +2,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 # Les Excel-filen (sett riktig filbane til din Excel-fil)
-df = pd.read_excel('C:/Users/ametta/Downloads/Datasett_1_Nordpool_forbruksdata_Norge.xlsx')
+df = pd.read_excel('C:/Users/moham/Downloads/Datasett_1_Nordpool_forbruksdata_Norge.xlsx')
 
 # Sjekk DataFrame for å sikre at det ble lastet riktig
 # print(df.head())
