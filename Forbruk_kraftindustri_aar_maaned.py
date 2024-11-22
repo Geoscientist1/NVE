@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 from NVE_alminnelig_forbruk import aggregated_df, aggregate_df
 
 # Les Excel-filen (sett riktig filbane til din Excel-fil)
-df = pd.read_excel('C:/Users/ametta/Downloads/Datasett_2_SSB_kraftintensiv_industri_Norge.xlsx')
+df = pd.read_excel('C:/Users/moham/Downloads/Datasett_2_SSB_kraftintensiv_industri_Norge.xlsx')
 
 df['År'] = df['Dato'].str[:4]
 df['Måned'] = df['Dato'].str[5:]
